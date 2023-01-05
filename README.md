@@ -28,3 +28,6 @@ pip install PyAudio
 ```
 This should work in maximum cases
 
+# Hardware Setup with Raspberry Pi
+This has been extended to a real world application of controlling home appliances with the speech which gets coverted to text.
+This text is given to the defined automata which accepts specific strings like "turn on" , "turn off" etc. Based on its acceptance, the LED which we have connected to the raspberry pi lights up or dims down.
