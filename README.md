@@ -17,4 +17,14 @@ python=3.8
 pip install -r requirements.txt
 ```
 
+# Issue with installing PyAudio
+### Common Issue in Ubuntu
+```
+sudo apt install build-essential portaudio19-dev python3.8-dev
+```
+Once this is successfully installed, continue installing PyAudio
+```
+pip install PyAudio
+```
+This should work in maximum cases
 
