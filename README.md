@@ -8,9 +8,13 @@ requirements.txt    -   Contains the required packages
 
 
 # Environment
+```
 python=3.8
+```
 
 # Installing packages
+```
 pip install -r requirements.txt
+```
 
 
